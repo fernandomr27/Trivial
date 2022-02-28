@@ -30,4 +30,5 @@ public class TrivialTests {
         //Assert
         Assertions.assertEquals(expected, actual);
     }
+
 }
