@@ -83,8 +83,8 @@ public class Game {
 
     }
 
-    private void nuevaPosicionJugador() {
-        System.out.println("La nueva posición de "
+    public String nuevaPosicionJugador() {
+        return ("La nueva posición de "
                 + jugadores.get(jugadorActual)
                 + " es "
                 + posiciones[jugadorActual]);
