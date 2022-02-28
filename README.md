@@ -22,3 +22,7 @@ Creamos 6 jugadores en la clase "GameLauncher"
 Extraemos el codigo duplicado a un unico metodo "respuestaCorrecta",
 al que llamamos desde ambos sitios.
 
+## Problema 6
+
+Extraemos el codigo duplicado a un unico metodo "pasarAlSiguienteJugador",
+al que llamamos desde ambos sitios.
