@@ -31,7 +31,7 @@ public class Game {
     }
 
     public boolean esJugable() {
-        while (cuantosJugadores() < 2){
+        while (cuantosJugadores() < 2 && cuantosJugadores() > 6){
             cuantosJugadores();
         }
         return (cuantosJugadores() == 2);
