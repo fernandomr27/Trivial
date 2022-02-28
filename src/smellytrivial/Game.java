@@ -31,7 +31,10 @@ public class Game {
     }
 
     public boolean esJugable() {
-        return (cuantosJugadores() >= 2);
+        while (cuantosJugadores() < 2){
+            cuantosJugadores();
+        }
+        return (cuantosJugadores() == 2);
     }
 
     public boolean agregar(String playerName) {
